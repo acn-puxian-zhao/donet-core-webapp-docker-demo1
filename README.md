@@ -28,7 +28,7 @@ docker pull puxian/docker:1.0
 docker run -d --restart=unless-stopped -p 80:80 puxian/docker:1.0
 
 # goes into a running container
-docker exec -i -t bd43e8fb6e56
+docker exec -i -t bd43e8fb6e56 /bin/bash
 
 # check the enviroment setting in a running container
 /app# env
